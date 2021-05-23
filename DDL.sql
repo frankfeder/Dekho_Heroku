@@ -9,7 +9,7 @@ CREATE TABLE cars (
 	car_owner VARCHAR(100),
 	mileage VARCHAR(100),
 	engine VARCHAR(50),
-	max_power varchar(100),
+	max_power VARCHAR(100),
 	torque VARCHAR (200),
 	seat int
 
