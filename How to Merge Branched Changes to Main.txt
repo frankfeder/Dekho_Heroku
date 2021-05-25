@@ -1,0 +1,23 @@
+# Clone main git repo
+git clone <URL>
+
+# Go into the new cloned folder
+cd <New Repo Folder Name>
+
+# Create new branch (leave out "-b" if branch already exists)
+git checkout -b <Branch Name>
+
+# (Now make your changes to the stuff in the repo folder)
+# Add your changes to the main repo
+git add .
+git commit -m "<Commit comment>"
+git push --set-upstream origin BranchName
+
+# Open GitHub in browser, navigate to your branch
+# Click "Create Pull Request" green button and follow instructions
+
+
+# HOW TO PULL CHANGES FROM MAIN TO YOUR BRANCH (re-sync)
+git checkout <Branch Name>
+git pull
+git merge origin/main
