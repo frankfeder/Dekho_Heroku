@@ -20,5 +20,5 @@ SciKit-Learn's linear regression model package will be used to create a machine 
 PostgreSQL will be used to host the tables of the database.
 
 ## Communication Protocols
-The team will correspond over Slack, in addition to meeting over Zoom as needed when possible.
+The team will correspond over Slack, in addition to meeting over Zoom as needed when possible. Also team decided to meet every sunday to make sure that we are all ready to go for the next week.
 

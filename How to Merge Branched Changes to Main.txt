@@ -15,3 +15,9 @@ git push --set-upstream origin BranchName
 
 # Open GitHub in browser, navigate to your branch
 # Click "Create Pull Request" green button and follow instructions
+
+
+# HOW TO PULL CHANGES FROM MAIN TO YOUR BRANCH (re-sync)
+git checkout <Branch Name>
+git pull
+git merge origin/main
