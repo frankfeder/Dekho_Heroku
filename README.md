@@ -22,3 +22,9 @@ PostgreSQL will be used to host the tables of the database.
 ## Communication Protocols
 The team will correspond over Slack, in addition to meeting over Zoom as needed when possible. Also team decided to meet every sunday to make sure that we are all ready to go for the next week.
 
+
+## The following Link will be our Google Slides for the presentation purpose
+
+The slides will be updated every segment as needed
+
+https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
