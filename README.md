@@ -28,3 +28,4 @@ The team will correspond over Slack, in addition to meeting over Zoom as needed 
 The slides will be updated every segment as needed
 
 https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
+
