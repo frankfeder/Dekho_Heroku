@@ -26,5 +26,44 @@
           <label for="KmDrivenInput">Kilometer Driven</label>
           <input type="text"  class="form-control" id="KmDrivenInput", placeholder="eg: 123456">
       </div>
+      <div class="form-group">
+          <label for="FuelTypeInput">Fuel Type</label>
+          <select class="form-control" id="FuelTypeInput">
+            <option>Petrol</option>
+            <option>Diesel</option>
+            <option>CNG</option>
+          </select>
+      </div>
+      <div class="form-group">
+        <label for="SellerTypeInput">Seller Type</label>
+        <select class="form-control" id="SellerTypeInput">
+          <option>Individual</option>
+          <option>Dealer</option>
+        </select>
+       </div>
+       <div class="form-group">
+        <label for="TransmissionTypeInput">Transmission Type</label>
+        <select class="form-control" id="TransmissionTypeInput">
+          <option>Automatic</option>
+          <option>Manual</option>
+        </select>
+       </div> 
+       <div class="form-group">
+        <label for="OwnerInput">Number of Owner(s)</label>
+        <input type="number"  class="form-control" id="OwnerInput", placeholder="eg: 1">
+       </div>
+       <div class="form-group">
+        <label for="PresentPriceInput">Present Price</label>
+        <input type="number"  class="form-control" id="PresentPriceInput", placeholder="eg: 11.6">
+       </div>
+       <div class="form-group">
+        <label for="CarNameInput">Car Name</label>
+        <input type="text"  class="form-control" id="CarNameInput", placeholder="eg: Honda Activa 125">
+       </div>
+
+       <!-- Add a button to activate scraping script -->
+       <p><a class="btn btn-success btn-lg text-center" href="/scrape" role="button">Submit Criterias</a></p>
+    </div>
+
 
 </html>     
