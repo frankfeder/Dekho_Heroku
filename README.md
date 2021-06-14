@@ -10,14 +10,23 @@ Pricing a car can feel like more of an art than a science when using a naive hum
 What are the most significant factors that determine a car's value? Do cars that use diesel fuel lose value more quickly as vehicle mileage increases?
 
 ## Technologies Used
+
+Python, Machine learning, HTML and PostgresSQL
+
+
 ### Data Cleaning and Analysis
 Pandas will be used to clean the data. All data manipulation will be performed in Python.
 
 ### Machine Learning
-SciKit-Learn's linear regression model package will be used to create a machine learning model.
+SciKit-Learn's linear regression model package and Classification model will be used to create a machine learning model.
 
 ### Data Storage
 PostgreSQL will be used to host the tables of the database.
+
+### Summary Analysis 
+
+Our Analysis for this segment was based on what are other models that we can use during our prediction. For this time we have decided to use a classification model to predict “price bins” based on each records features instead of linear regression which was initially being used. We are also pursuing K-nearest neighbor and decision tree models.
+
 
 
 
