@@ -27,8 +27,12 @@ PostgreSQL will be used to host the tables of the database.
 
 Our Analysis for this segment was based on what are other models that we can use during our prediction. For this time we have decided to use a classification model to predict “price bins” based on each records features instead of linear regression which was initially being used. We are also pursuing K-nearest neighbor and decision tree models.
 
+![Summary_car_sold](https://user-images.githubusercontent.com/74233163/121831740-d1f6ce80-cc8d-11eb-9f0a-9df58d4d1035.png)
 
 
+
+
+So the predictive model will classify into buckets like "$0-200,000" or "600,000-800,000"
 
 ## The following Link will be our Google Slides for the presentation purpose
 
