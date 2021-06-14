@@ -1,4 +1,8 @@
 # Car Dekho - Selling Price Prediction
+
+## Link to Google Slides Presentation:
+https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
+
 ## Project Overview
 ### Selected topic
 This project will use data from Car Dekho, an online vehicle marketplace, to train a machine learning model to predict a car's selling price based on features in the data including vehicle year, mileage, and fuel type.
@@ -30,9 +34,5 @@ Our Analysis for this segment was based on what are other models that we can use
 
 
 
-## The following Link will be our Google Slides for the presentation purpose
 
-The slides will be updated every segment as needed
-
-https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
 
