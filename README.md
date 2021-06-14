@@ -32,6 +32,7 @@ Our Analysis for this segment was based on what are other models that we can use
 
 
 
+So the predictive model will classify into buckets like "$0-200,000" or "600,000-800,000"
 
 ## The following Link will be our Google Slides for the presentation purpose
 
