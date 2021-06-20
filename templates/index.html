@@ -19,9 +19,10 @@
 
       <!-- Form section -->
       <div class="form-group text-center">
-          <label for="YearInput">Year</label>
-          <input type="number" class="form-control" id="YearInput", placeholder="eg: 2013">
-      </div>
+        <form method="post" action="\predict">
+          <h2>Year</h2> <input type="number" class="form-control" name="YearInput", placeholder="eg: 2013">
+
+
       <div class="form-group text-center">
           <label for="KmDrivenInput">Kilometer Driven</label>
           <input type="text"  class="form-control" id="KmDrivenInput", placeholder="eg: 123456">
@@ -47,7 +48,7 @@
           <option>Automatic</option>
           <option>Manual</option>
         </select>
-       </div> 
+       </div>
        <div class="form-group text-center">
         <label for="OwnerInput">Number of Owner(s)</label>
         <input type="number"  class="form-control" id="OwnerInput", placeholder="eg: 1">
@@ -68,4 +69,4 @@
       </div>
 
 
-</html>     
+</html>
