@@ -84,5 +84,6 @@ def predict():
         prediction = model.predict([[Year, Km_Driven, Fuel_Diesel, Fuel_Other, Fuel_Petrol, Seller_Type_Dealer, Seller_Type_Individual, Seller_Type_TrustmarkDealer,
                                    Transmission_Automatic, Transmission_Manual, Made_in_America, Made_in_Asia, Made_in_Europe, Made_in_India, Made_in_Unknown]])
         output = prediction
+        return render_template('index.html', final_prediction="The car can be sold at {} dollars".format(output))
     else:
         return render_template('index.html')
