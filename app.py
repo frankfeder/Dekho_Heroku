@@ -87,3 +87,5 @@ def predict():
         return render_template('index.html', final_prediction="The car can be sold at {} dollars".format(output))
     else:
         return render_template('index.html')
+if __name__ == '__main__':
+    app.run(debug=True)        
