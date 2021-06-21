@@ -10,7 +10,7 @@ def home():
 
 #Route to a webpage with a form
 
-#Post route from the form (Asynchronously called by AJAX)
+#Post route from the form (Asynchronously called by AJAX) 
 # Call the machine learning model .predict method on the data that passed from the form
 # return Json and python dictionaries (Jsonify)
 # AJAX calling function on the webform will update a div id with the results
