@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #%%
 from flask import Flask, render_template
 # import myMachineLearningModel
@@ -12,6 +13,10 @@ def home():
 #Route to a webpage with a form
 
 #Post route from the form (Asynchronously called by AJAX) 
+=======
+# Route to a webpage with a form
+# Post route from the form (Asynchronously called by AJAX)
+>>>>>>> origin/main
 =======
 # Route to a webpage with a form
 # Post route from the form (Asynchronously called by AJAX)
