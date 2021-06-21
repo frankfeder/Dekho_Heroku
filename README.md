@@ -3,7 +3,7 @@
 ## Link to Google Slides Presentation:
 https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
 
-## Heroku Link:
+## Link to dashboard (Heroku Link):
 https://car-dekho-prediction03.herokuapp.com/
 
 ## Project Overview
