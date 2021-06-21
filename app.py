@@ -3,21 +3,29 @@
 # Call the machine learning model .predict method on the data that passed from the form
 # return Json and python dictionaries (Jsonify)
 # AJAX calling function on the webform will update a div id with the results
+
 from flask import Flask, render_template, request
 import requests
 import pickle
 import numpy as np
+import sklearn
+
+
 app = Flask(__name__)
-model = pickle.load(open("dtree_model.sav", 'rb'))
+model = pickle.load(open("./Machine Learning Modeling/dtree_model.sav", 'rb'))
+final_prediction = "No prediction yet."
+
 @app.route('/', methods=['GET'])
 def Home():
     return render_template('index.html')
-@app.route("/predict", methods=['POST'])
+
+@app.route("/predict", methods=['POST', 'GET'])
 def predict():
-    if request.method == 'POST':
+    if request.method == 'GET':
         Year = int(request.form['YearInput'])
         Km_Driven = int(request.form['KmDrivenInput'])
         Fuel_Type = request.form['FuelTypeInput']
+
         if(Fuel_Type == 'Petrol'):
             Fuel_Diesel = 0
             Fuel_Other = 0
@@ -84,8 +92,11 @@ def predict():
         prediction = model.predict([[Year, Km_Driven, Fuel_Diesel, Fuel_Other, Fuel_Petrol, Seller_Type_Dealer, Seller_Type_Individual, Seller_Type_TrustmarkDealer,
                                    Transmission_Automatic, Transmission_Manual, Made_in_America, Made_in_Asia, Made_in_Europe, Made_in_India, Made_in_Unknown]])
         output = prediction
+        print(output)
         return render_template('index.html', final_prediction="The car can be sold at {} dollars".format(output))
+
     else:
         return render_template('index.html')
+
 if __name__ == '__main__':
     app.run(debug=True)        
