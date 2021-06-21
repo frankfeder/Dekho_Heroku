@@ -13,7 +13,7 @@ git add .
 git commit -m "<Commit comment>"
 git push --set-upstream origin BranchName
 
-# Open GitHub in browser, navigate to your branch
+# Open GitHub in b-rowser, navigate to your branch
 # Click "Create Pull Request" green button and follow instructions
 
 
