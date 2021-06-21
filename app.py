@@ -19,9 +19,9 @@ final_prediction = "No prediction yet."
 def Home():
     return render_template('index.html')
 
-@app.route("/predict", methods=['POST', 'GET'])
+@app.route("/predict", methods=['POST'])
 def predict():
-    if request.method == 'GET':
+    if request.method == 'POST':
         Year = int(request.form['YearInput'])
         Km_Driven = int(request.form['KmDrivenInput'])
         Fuel_Type = request.form['FuelTypeInput']
@@ -89,14 +89,17 @@ def predict():
             Made_in_Europe = 0
             Made_in_India = 0
             Made_in_Unknown = 1
-        prediction = model.predict([[Year, Km_Driven, Fuel_Diesel, Fuel_Other, Fuel_Petrol, Seller_Type_Dealer, Seller_Type_Individual, Seller_Type_TrustmarkDealer,
-                                   Transmission_Automatic, Transmission_Manual, Made_in_America, Made_in_Asia, Made_in_Europe, Made_in_India, Made_in_Unknown]])
+
+        to_predict = [[Year, Km_Driven, Fuel_Diesel, Fuel_Other, Fuel_Petrol, Seller_Type_Dealer, Seller_Type_Individual, Seller_Type_TrustmarkDealer,
+                                   Transmission_Automatic, Transmission_Manual, Made_in_America, Made_in_Asia, Made_in_Europe, Made_in_India, Made_in_Unknown]]
+        prediction = model.predict(to_predict)
         output = prediction
-        print(output)
-        return render_template('index.html', final_prediction="The car can be sold at {} dollars".format(output))
+
+        return render_template('withPredict.html', final_prediction=f"The car can be sold at {output} rupees.")
 
     else:
         return render_template('index.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)        
