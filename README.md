@@ -1,4 +1,11 @@
 # Car Dekho - Selling Price Prediction
+
+## Link to Google Slides Presentation:
+https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
+
+## Heroku Link:
+https://car-dekho-prediction03.herokuapp.com/
+
 ## Project Overview
 ### Selected topic
 This project will use data from Car Dekho, an online vehicle marketplace, to train a machine learning model to predict a car's selling price based on features in the data including vehicle year, mileage, and fuel type.
@@ -30,13 +37,4 @@ Our Analysis for this segment was based on what are other models that we can use
 ![Summary_car_sold](https://user-images.githubusercontent.com/74233163/121831740-d1f6ce80-cc8d-11eb-9f0a-9df58d4d1035.png)
 
 
-
-
-So the predictive model will classify into buckets like "$0-200,000" or "600,000-800,000"
-
-## The following Link will be our Google Slides for the presentation purpose
-
-The slides will be updated every segment as needed
-
-https://docs.google.com/presentation/d/1_ncOAyJNE6pDFfBaeFreSG21d3WS8ew_Qi82QEE2kSE/edit?usp=sharing
 
